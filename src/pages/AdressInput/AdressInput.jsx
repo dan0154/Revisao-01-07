@@ -9,7 +9,6 @@ export default function AdressInput(){
     const [searchCEP, setSearchCEP] = useState('')
     const [apiResponse, setApiResponse] = useState('')
     
-
     useEffect(() => {
         fetch(`https://viacep.com.br/ws/${searchCEP}/json/`)
             .then(response => response.json())

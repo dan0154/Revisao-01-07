@@ -4,3 +4,17 @@
     align-items: center;
 
 }
+
+.centerInput button{
+    margin: 10px;
+    background-color: rgb(67, 92, 231);
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 5px;
+    color: white;
+}
+
+.centerInput input{
+    height: 25px;
+    margin-top: 10px;
+}
